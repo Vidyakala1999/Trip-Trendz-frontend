@@ -1,0 +1,34 @@
+#br{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#r1 form{
+    /* background-color: #7fa76f36; */
+        background-color: rgb(217 230 212 / 29%);
+
+}
+
+#r1 form:hover{
+    background-color: rgba(61, 126, 31, 0.452);
+    /* transform: scale(1.01); */
+}
+
+#rh1{
+    color: rgb(85, 155, 19);
+    font-weight: 700;
+    
+}
+
+#rh1 i:hover{
+    transform: scale(1.3);
+}
+.blog-item{
+    background: linear-gradient(to right, #374123,#637c31);
+    border-radius: 10px;
+}
+#h6{
+    color: rgb(232, 148, 21);
+}

@@ -1,0 +1,19 @@
+form input {
+    width: 95%;
+    border: 2px rgb(152 153 158 / 70%) ridge;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+form{
+    box-shadow: 0 -6px 0 #fff, 0 1px 25px rgba(0,0,0, .35);
+}
+
+form:hover{
+    box-shadow: 0 -6px 0 #fff, 0 1px 25px rgba(0,0,0, .35);
+    transform: scale(1.02);
+}
+.body{
+    background: linear-gradient(to right, #dfd5d3, #67754e);
+}

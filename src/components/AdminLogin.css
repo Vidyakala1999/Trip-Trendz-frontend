@@ -1,0 +1,9 @@
+form{
+    box-shadow: 0 -6px 0 #fff, 0 1px 25px rgba(0,0,0, .35);
+    width: 50%;
+}
+
+#ad{
+    width: 50%;
+    margin-bottom: 40px;
+}

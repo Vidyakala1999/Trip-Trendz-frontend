@@ -1,0 +1,326 @@
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+#home1 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#home1 .row {
+    position: relative;
+   z-index: 1;
+}
+
+#btn1 {
+    background: linear-gradient(to right, #dfd5d3, #67754e);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+#btn1:hover {
+    background: linear-gradient(to right, #ece3d8, #5b7247);
+}
+#para {
+    animation: slideIn 2s ease forwards; /* Animation name, duration, timing function, and fill mode */
+    color: black;
+    font-family: serif;
+   
+    font-size: large;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textAnimation {
+    0%, 100% {
+        transform: translateY(0);
+        color: rgb(154, 173, 79); /* Initial and final color */
+    }
+    50% {
+        transform: translateY(-20px);
+        color: rgb(66, 128, 91); /* Color in the middle of the animation */
+    }
+}
+
+#tag {
+    animation: textAnimation 2s infinite; /* Adjust duration and iteration count as needed */
+    font-family: serif;
+}
+#modal{
+    background: linear-gradient(to right, #ffffff,#a0b478);
+}
+#modal1{
+    background: linear-gradient(to left, #a0b478,#eff1eb);
+}
+.fd-bolder {
+    font-family: cursive;
+   color: azure;
+   text-shadow: 2px 2px 4px black;
+   
+}
+#imga{
+    mix-blend-mode:multiply;
+}
+#home1 {
+    position: relative;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.name h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#tag {
+    font-size: 28px;
+    font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-size: larger;
+}
+
+#para {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.all-places .card-style {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.all-places .card-style:hover {
+    transform: scale(1.05);
+}
+
+.modal-style .modal-content {
+    background: linear-gradient(to left, #a0b478,#eff1eb);
+    color: #333;
+}
+
+.modal-style .modal-header, .modal-style .modal-body {
+    background: linear-gradient(to left, #a0b478,#eff1eb);
+    color: #333;
+}
+
+.modal-style .modal-body ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    
+}
+
+.modal-style .modal-body ul li {
+    margin-bottom: 10px;
+   
+}
+
+#button-default {
+    background: linear-gradient(to right, #566539,#eff1eb);
+    border: none;
+}
+
+#button-default:hover {
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+}
+
+
+/* Background video */
+#background-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Home section */
+#home1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Card styles */
+.card-style {
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.card-style:hover {
+    transform: scale(1.05);
+}
+
+/* Modal styles */
+.modal-style .modal-header {
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+    color: rgb(4, 4, 4);
+}
+
+.modal-style .modal-body img {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-style .modal-body ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.modal-style .modal-body .btn {
+    margin-right: 10px;
+}
+
+.modal-style .modal-body a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Carousel card styles */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    background: linear-gradient(to right, #a0b478,#eff1eb); 
+}
+
+.card .image-box img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.card .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-primary {
+    
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 91, 181, 0.3);
+}
+
+#button-default {
+    display: block;
+    margin-top: 10px;
+}
+
+.container-fluid {
+    position: relative;
+    z-index: 1;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+h1.fd-bolder {
+    font-weight: bold;
+}
+
+#imga {
+    margin-right: 15px;
+}
+
+#tag {
+    font-style: italic;
+}
+
+#para {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Custom font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#home1 h1 {
+    font-size: 50px;
+}
+
+#home1 h3 {
+    font-size: 24px;
+}
+
+#home1 p {
+    font-size: 16px;
+}
+
+/* Button positioning */
+.modal-body .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+    color: rgb(15, 13, 13);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.modal-body .btn:hover {
+    background: linear-gradient(to right, #a0b478,#eff1eb);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(63, 171, 83, 0.3);
+}
