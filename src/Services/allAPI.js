@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://triptrendz-server.onrender.com";
 
 const useTravelService = () => {
   const [login, setLogin] = useState(false);
